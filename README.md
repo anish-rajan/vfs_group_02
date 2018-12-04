@@ -11,7 +11,7 @@ A virtual file system (VFS) is an abstraction layer on top of a concrete file sy
 - File Blocks – Fundamental storage unit into which files are actually stored. A single file may span across multiple file blocks
 - File Descriptors – A data structure that contains meta-data information about the file (name, type, location, etc.)
 
-##Overview
+##Overview..
 
 File System is basically a large file which stores the data contained in all the existing files. Each file/folder in a file system has a corresponding File descriptor which stores all the information of the file /folder e.g. Size, name, path etc. File system is divided into data blocks of fixed size which store the actual file contents. The files when saved in the file system can be scattered over multiple blocks depending upon the size of the file.
 
